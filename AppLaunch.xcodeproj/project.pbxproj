@@ -15,6 +15,8 @@
 		220A630E260551FB00427FE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220A630C260551FB00427FE7 /* LaunchScreen.storyboard */; };
 		220A6319260551FB00427FE7 /* AppLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220A6318260551FB00427FE7 /* AppLaunchTests.swift */; };
 		220A6324260551FB00427FE7 /* AppLaunchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220A6323260551FB00427FE7 /* AppLaunchUITests.swift */; };
+		220A634226055DD200427FE7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220A634126055DD200427FE7 /* main.swift */; };
+		220A634726055ED400427FE7 /* TestingAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220A634626055ED400427FE7 /* TestingAppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		220A631F260551FB00427FE7 /* AppLaunchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppLaunchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		220A6323260551FB00427FE7 /* AppLaunchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunchUITests.swift; sourceTree = "<group>"; };
 		220A6325260551FB00427FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220A634126055DD200427FE7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		220A634626055ED400427FE7 /* TestingAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				220A630A260551FB00427FE7 /* Assets.xcassets */,
 				220A630C260551FB00427FE7 /* LaunchScreen.storyboard */,
 				220A630F260551FB00427FE7 /* Info.plist */,
+				220A634126055DD200427FE7 /* main.swift */,
 			);
 			path = AppLaunch;
 			sourceTree = "<group>";
@@ -115,6 +120,7 @@
 			children = (
 				220A6318260551FB00427FE7 /* AppLaunchTests.swift */,
 				220A631A260551FB00427FE7 /* Info.plist */,
+				220A634626055ED400427FE7 /* TestingAppDelegate.swift */,
 			);
 			path = AppLaunchTests;
 			sourceTree = "<group>";
@@ -259,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				220A6306260551FB00427FE7 /* ViewController.swift in Sources */,
+				220A634226055DD200427FE7 /* main.swift in Sources */,
 				220A6302260551FB00427FE7 /* AppDelegate.swift in Sources */,
 				220A6304260551FB00427FE7 /* SceneDelegate.swift in Sources */,
 			);
@@ -269,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				220A6319260551FB00427FE7 /* AppLaunchTests.swift in Sources */,
+				220A634726055ED400427FE7 /* TestingAppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
